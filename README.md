@@ -16,3 +16,21 @@ To facilitate this, each chapter will present a section on using the group eleme
 Many interesting problems in control and estimation exist which can be solved by using "hacks" like wrapping Euler angles, normalizing quaternions at every step, etc. Alternatively, Lie theory can be applied to implement algorithms that do their work on the manifold (i.e., the surface of all 3D rotation matrices, `SO(3)`).
 
 In particular, vision-based control and estimation is an active research area that employs the use of Lie groups and Lie algebras to leverage computationally efficient representations of rigid body transformations. Many state of the art algorithms in visual-inertial odometry, SLAM, and robust control use these concepts.
+
+## Getting Started ##
+
+To get started improving and learning with these notebooks, make sure you have Jupyter installed:
+
+```bash
+$ pip install jupyter --user
+```
+
+After cloning this repo and navigating into its directory on your machine, kick off the Jupyter notebook server with:
+
+```bash
+$ jupyter notebook
+```
+
+The server will start and a new browser tab will open.
+
+For more information on Python/pip, see [here](https://magiccvs.byu.edu/wiki/#!sw_guides/python.md).
