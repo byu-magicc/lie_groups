@@ -1,9 +1,9 @@
 Lie Groups
 ==========
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/byu-magicc/lie_groups/master)
+[![nbviewer](https://cdn.rawgit.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](http://nbviewer.jupyter.org/github/byu-magicc/lie_groups/) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/byu-magicc/lie_groups/master)
 
-This repo houses an implementation-focused introduction to Lie Groups for roboticists. All material is written in Python and presented in Jupyter Notebook format. Start reading and interacting with the code online by clicking the binder badge above.
+This repo houses an implementation-focused introduction to Lie Groups for roboticists. All material is written in Python and presented in Jupyter Notebook format. Start reading online with `nbviewer` or interacting with the code using `binder` by clicking the appropriate badge above.
 
 ## Overview ##
 
