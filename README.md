@@ -34,3 +34,15 @@ $ jupyter notebook
 The server will start and a new browser tab will open.
 
 For more information on Python/pip, see [here](https://magiccvs.byu.edu/wiki/#!sw_guides/python.md).
+
+## Handling Merge Conflicts: `nbdime` ##
+
+Because Jupyter notebook are difficult to parse as raw text, the [`nbdime`](https://nbdime.readthedocs.io/en/stable/installing.html) tool was created to help graphically manage merge conflicts. Install using `pip` with
+
+```bash
+$ pip install -U nbdime
+```
+
+and make sure to integrate with `git` using `nbdime config-git --enable --global`. This will allow `git diff` to use `nbdime`'s command-line diff interface for any `*.ipynb` files. Alternatively, you can use `nbdiff-web` to compare Jupyter notebooks graphically.
+
+See the `nbdime` [docs ](https://nbdime.readthedocs.io/en/stable/vcs.html) to read more about `git` integration and using `nbdime` as the merge tool.
