@@ -1,9 +1,11 @@
 Lie Groups
 ==========
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/byu-magicc/lie_groups/master)
+[![nbviewer](https://cdn.rawgit.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](http://nbviewer.jupyter.org/github/byu-magicc/lie_groups/) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/byu-magicc/lie_groups/master)
 
-This repo houses an implementation-focused introduction to Lie Groups for roboticists. All material is written in Python and presented in Jupyter Notebook format. Start reading and interacting with the code online by clicking the binder badge above.
+This repo houses an implementation-focused introduction to Lie Groups for roboticists. All material is written in Python and presented in Jupyter Notebook format.
+
+For the best experience, start reading online with `nbviewer` or interacting with the code using `binder` by clicking the appropriate badge above. Alternatively, follow the *Getting Started* instructions below to run the notebook on your local machine.
 
 ## Overview ##
 
@@ -34,3 +36,15 @@ $ jupyter notebook
 The server will start and a new browser tab will open.
 
 For more information on Python/pip, see [here](https://magiccvs.byu.edu/wiki/#!sw_guides/python.md).
+
+## Handling Merge Conflicts: `nbdime` ##
+
+Because Jupyter notebook are difficult to parse as raw text, the [`nbdime`](https://nbdime.readthedocs.io/en/stable/installing.html) tool was created to help graphically manage merge conflicts. Install using `pip` with
+
+```bash
+$ pip install -U nbdime
+```
+
+and make sure to integrate with `git` using `nbdime config-git --enable --global`. This will allow `git diff` to use `nbdime`'s command-line diff interface for any `*.ipynb` files. Alternatively, you can use `nbdiff-web` to compare Jupyter notebooks graphically.
+
+See the `nbdime` [docs ](https://nbdime.readthedocs.io/en/stable/vcs.html) to read more about `git` integration and using `nbdime` as the merge tool.
