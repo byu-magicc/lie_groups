@@ -37,6 +37,14 @@ The server will start and a new browser tab will open.
 
 For more information on Python/pip, see [here](https://magiccvs.byu.edu/wiki/#!sw_guides/python.md).
 
+You will also need `ffmpeg` installed to render matplotlib animations as inline videos. On Ubuntu, this is accomplished with
+
+```bash
+sudo apt install ffmpeg
+```
+
+For other operating systems, refer to the documentation [here](https://www.ffmpeg.org/) or [here](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg).
+
 ## Handling Merge Conflicts: `nbdime` ##
 
 Because Jupyter notebook are difficult to parse as raw text, the [`nbdime`](https://nbdime.readthedocs.io/en/stable/installing.html) tool was created to help graphically manage merge conflicts. Install using `pip` with
