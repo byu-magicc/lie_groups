@@ -1,0 +1,5 @@
+matplotlib==2.1
+numpy==1.14.5
+scipy==1.1
+# until this PR gets merged, this wont work... https://github.com/embotech/ecos-python/issues/8
+#cvxpy==1.0.6
